@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 200px;
+    background-color:azure;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 70px;
+}
+.lex1{
+    background-color: white;
+    border-radius: 10px;
+    border: solid;
+    position: relative;
+    
+}
+img{
+    border-radius: 10px;
+    padding: 10px;
+}
+p{
+    margin: 30px;
+}
+span{
+    display: flex; 
+    padding-left: 70px;
+    padding-top: -40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    
+}
